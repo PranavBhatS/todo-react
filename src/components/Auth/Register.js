@@ -22,7 +22,7 @@ class Register extends Component {
       passwordConformation: "",
       errors: [],
       loading: false,
-      userRef:firebase.database().ref()
+      userRef:firebase.database().ref("users")
     };
   }
   handleChange = (event) => {

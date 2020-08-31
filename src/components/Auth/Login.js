@@ -80,7 +80,7 @@ class Login extends Component {
       <Grid textAlign="center" verticalAlign="middle" className="app">
         <Grid.Column style={{ maxWidth: 450 }}>
           <Header as="h1" icon color="violet" textAlign="center">
-            <Icon name="codiepie" color="voilet" />
+            <Icon name="codiepie" color="violet" />
             Login to pbchat
           </Header>
           <Form onSubmit={this.handleSubmit} size="large">
